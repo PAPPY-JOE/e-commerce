@@ -656,11 +656,3 @@ footer li{
 
 
 }
-
-
-@media only screen and (max-width: 426px){     
-    
-    .row .col-4 h4{
-        display: none;
-    }
-}
