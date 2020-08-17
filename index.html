@@ -10,10 +10,11 @@
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <title>Blingz Ville - Products</title>
+    <script src="scripts/toggle-menu.js"></script>
 </head>
 <body>
     <!-- Nav Bar -->
-    <div class="header">
+    <div id="Top-header" class="header">
         <div class="container">
             <div class="logo">
                 <img src="images/Blingz Ville Logo.png" alt="Blingz Ville Logo">
@@ -31,12 +32,20 @@
 
             <div class="menuIcons">
                 <i id="cart-icon" class="fa fa-shopping-bag"></i>
-                <i id="menu-bar" class="fa fa-bars"></i>
+                <i id="menu-bar" class="fa fa-bars" onclick="MenuToggler()"></i>
             </div>
         </div>
     </div>
 
-
+    <div id="Toggle-Menu">
+        <ul id="menuItemsToggle">
+            <li><a href="">Home <br><i></i></a></li>
+            <li><a href="">Products <br><i></i></a></li>
+            <li><a href="">About <br><i></i></a></li>
+            <li><a href="">Contact <br><i></i></a></li>
+            <li><a href="">Account <br><i></i></a></li>
+        </ul>
+    </div>
 
 
     <!-- Body -->
@@ -358,7 +367,7 @@
             
             <div class="row">
                 <div class="col-4">
-                    <img src="images/abaya7.jpg">
+                    <img src="images/abaya0.jpg">
                     <h4>Friday Specials Hand-wooven Abaya</h4>
                     <div class="rating">
                         <i class="fa fa-star"></i>
@@ -484,7 +493,7 @@
             
             <div class="row">
                 <div class="col-4">
-                    <img src="images/abaya7.jpg">
+                    <img src="images/abaya9.jpg">
                     <h4>Friday Specials Hand-wooven Abaya</h4>
                     <div class="rating">
                         <i class="fa fa-star"></i>
@@ -736,7 +745,7 @@
             
             <div class="row">
                 <div class="col-4">
-                    <img src="images/abaya7.jpg">
+                    <img src="images/abaya6.jpg">
                     <h4>3.5 Star Hand-wooven Abaya</h4>
                     <div class="rating">
                         <i class="fa fa-star"></i>
@@ -757,7 +766,7 @@
 
             <div class="row">
                 <div class="col-4">
-                    <img src="images/abaya6.jpg">
+                    <img src="images/abaya8.jpg">
                     <h4>Black Rush Hand-wooven Abaya</h4>
                     <div class="rating">
                         <i class="fa fa-star"></i>
@@ -787,8 +796,8 @@
 
             <div class="row">
                 <div class="col-4">
-                    <img src="images/abaya5.jpg">
-                    <h4>Purple Rush Hand-wooven Abaya</h4>
+                    <img src="images/abaya6.jpg">
+                    <h4> Rush Hand-wooven Abaya</h4>
                     <div class="rating">
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
